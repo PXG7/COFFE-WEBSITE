@@ -25,28 +25,28 @@
     <ul class="nav-menu">
         <li class="nav-item">
           
-            <a href="#" class="nav-link">Home</a>
+            <a href="#home" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link">About Us</a>
+            <a href="#about" class="nav-link">About Us</a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link">Menu</a>
+            <a href="#menu" class="nav-link">Menu</a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link">Testimonials</a>
+            <a href="#testimonials" class="nav-link">Testimonials</a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link">Gallery</a>
+            <a href="#gallery" class="nav-link">Gallery</a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
+            <a href="#contact" class="nav-link">Contact</a>
         </li>
     </ul>
     <button id="menu-open-button" class="fas fa-bars"></button> 
         </nav>
     </header>
-    <main class="hero-section">
+    <main id="home" class="hero-section">
          
         <div class="section-content">
             <div class="hero-details">
@@ -64,7 +64,7 @@
             </div>
         </div>
         <! --about section -->
-        <section class="about-section">
+        <section id="about" class="about-section">
             <div class="section-content">
                 <div class="about-image-wrapper">
                     <img src="assets/images/about-image.jpg"  alt="About" class="about-image">
@@ -83,7 +83,7 @@
         </section>
 
         <!--MENU SECTION-->
-        <section class="menu-section">
+        <section id="menu" class="menu-section">
             <h2 class="section-title">Our Menu</h2>
             <div class="menu-section">
                 <ul class="menu-list">
@@ -133,41 +133,43 @@
             </div>
         </section>
         <!--testimonials-->
-        <section class="testimonials-section">
+        <section id="testimonials" class="testimonials-section">
      <h2 class="section-title">Testimonials</h2>
      <div class="section-content">
         <div class="slider-container swiper">
-        <div class="slider-wrapper">
+        
           <ul class="testimonials-list swiper-wrapper">
             <li class="testimonials swiper-slide">
                 <img src="assets/images/user-1.jpg" alt="User" class="user-image">
                 <h3 class="name">Sarah Johnson</h3>
-                <i class="feedback">"Loved the french roast. Perfectly balanced and rich. Will order again!"
-            </i>
+                <i class="feedback">"Loved the french roast. Perfectly balanced and rich. Will order again!"</i>
+             </li>
             <li class="testimonials swiper-slide">
                 <img src="assets/images/user-2.jpg" alt="User" class="user-image">
                 <h3 class="name">James Wilson</h3>
-                <i class="feedback">"Great espresso blend! Smooth and blood flavor. Fast shipping too!"
-            </i>
+                <i class="feedback">"Great espresso blend! Smooth and blood flavor. Fast shipping too!" </i>
+             </li>
             <li class="testimonials swiper-slide">
                 <img src="assets/images/user-3.jpg" alt="User" class="user-image">
                 <h3 class="name">Micheal Brown</h3>
                 <i class="feedback">"Fantastic mocha flavor. Fresh and aromatic. Quick shipping!"
             </i>
+            </li>
             <li class="testimonials swiper-slide">
                 <img src="assets/images/user-4.jpg" alt="User" class="user-image">
                 <h3 class="name">Emily Harris</h3>
-                <i class="feedback">"Excellent quality! Fresh beans and quick delivery. Highly recommend."
-            </i>
+                <i class="feedback">"Excellent quality! Fresh beans and quick delivery. Highly recommend." </i>
+                </li>
+           
             <li class="testimonials swiper-slide">
                 <img src="assets/images/user-5.jpg" alt="User" class="user-image">
                 <h3 class="name">Anthony Thompson</h3>
-                <i class="feedback">"Best decaf I have tried! smooth and flavorful. Arrived promptly".
-            </i>
+                <i class="feedback">"Best decaf I have tried! smooth and flavorful. Arrived promptly". </i>
+             </li>
           </ul>  
           <div class="swiper-pagination"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          <div class="swiper-slide-button swiper-button-prev"></div>
+          <div class="swiper-slide-button swiper-button-next"></div>
 
         </div>
      </div>
@@ -176,7 +178,7 @@
     <!--Linking swiper script-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
-
+<!--linking custom script-->
     <script src="script.js"></script>
 </body>
 </html>

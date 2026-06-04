@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "poppins",sans-serif;
 }
+
 :root{ 
      --primary-color: #3b141c;
     --secondary-color: #f3961c;
@@ -277,6 +278,7 @@ header .navbar {
 .menu-section .menu-list .menu-item .text {
     font-size: var(--font-md);
 }
+
 body .show-mobile-menu header::before {
     content:"";
     position: fixed;
@@ -288,11 +290,21 @@ body .show-mobile-menu header::before {
     background: rgb(0, 0, 0 ,0.2);
 }
 /* Testimoials */
+@media (max-width:760px){
+    .testimonials-section .testimonials{
+        padding: 20px;
+    }
+
+}
 .testimonials-section {
     padding: 50px 0 100px;
-    background: light rgb(184, 146, 152);
+    background: rgb(187, 165, 168);
 }
-.testimonials-section .testimonial {
+.testimonials-section .slider-wrapper {
+    overflow: hidden;
+    
+}
+.testimonials-section .testimonials {
     display: flex;
     padding: 35px;
     text-align: center;
@@ -300,21 +312,34 @@ body .show-mobile-menu header::before {
     align-items: center; 
 }
     
-.testimonials-section .testimonial .user-image {
-    width: 180px;
-    height: 180px;
+.testimonials-section .testimonials .user-image {
+    width: 150px;
+    height: 150px;
     object-fit: cover;
-    margin-bottom: 50px;
-    border-radius: var(--border-radius-round);
+    margin-bottom: 20px;
+    border-radius: 50%;
 }
-.testimonials-section .testimonial .name {
+.testimonials-section .testimonials .name {
     margin-bottom: 16px;
     font-size: var(--font-medium);
 }
-.testimonials-section .testimonial .feedback {
+.testimonials-section .testimonials .feedback {
  line-height: 25px;
 }
-
+.testimonials-section .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    background: var(--secondary-color);
+}
+.testimonials-section .swiper-slide-button {
+    color: var(--secondary-color);
+    margin-top: -50px;
+    transition: 0.3s ease;
+}
+.testimonials-section .swiper-slide-button:hover {
+    color: var(--primary-color);
+}
 /*Responsive media query code for max width 1024 */
 @media screen and (max-width:1024px) {
     .menu-section .menu-list {
@@ -322,9 +347,9 @@ body .show-mobile-menu header::before {
     }
     .menu-section .menu-list .menu-item {
         width: calc(100% / 3 - 60px);
-}
     }
 }
+
 @media screen and (max-width:900px) {
     
     .navbar :where(#menu-close-button, #menu-open-button){
