@@ -13,6 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
 </head>
 <body>
     <header>
@@ -131,7 +132,51 @@
                 </ul>
             </div>
         </section>
+        <!--testimonials-->
+        <section class="testimonials-section">
+     <h2 class="section-title">Testimonials</h2>
+     <div class="section-content">
+        <div class="slider-container swiper">
+        <div class="slider-wrapper">
+          <ul class="testimonials-list swiper-wrapper">
+            <li class="testimonials swiper-slide">
+                <img src="assets/images/user-1.jpg" alt="User" class="user-image">
+                <h3 class="name">Sarah Johnson</h3>
+                <i class="feedback">"Loved the french roast. Perfectly balanced and rich. Will order again!"
+            </i>
+            <li class="testimonials swiper-slide">
+                <img src="assets/images/user-2.jpg" alt="User" class="user-image">
+                <h3 class="name">James Wilson</h3>
+                <i class="feedback">"Great espresso blend! Smooth and blood flavor. Fast shipping too!"
+            </i>
+            <li class="testimonials swiper-slide">
+                <img src="assets/images/user-3.jpg" alt="User" class="user-image">
+                <h3 class="name">Micheal Brown</h3>
+                <i class="feedback">"Fantastic mocha flavor. Fresh and aromatic. Quick shipping!"
+            </i>
+            <li class="testimonials swiper-slide">
+                <img src="assets/images/user-4.jpg" alt="User" class="user-image">
+                <h3 class="name">Emily Harris</h3>
+                <i class="feedback">"Excellent quality! Fresh beans and quick delivery. Highly recommend."
+            </i>
+            <li class="testimonials swiper-slide">
+                <img src="assets/images/user-5.jpg" alt="User" class="user-image">
+                <h3 class="name">Anthony Thompson</h3>
+                <i class="feedback">"Best decaf I have tried! smooth and flavorful. Arrived promptly".
+            </i>
+          </ul>  
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+        </div>
+     </div>
+        </section>
     </main>
+    <!--Linking swiper script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+
     <script src="script.js"></script>
 </body>
 </html>
