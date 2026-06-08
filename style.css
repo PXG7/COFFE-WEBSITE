@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "poppins",sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 :root{ 
      --primary-color: #3b141c;
@@ -46,6 +49,9 @@ a {
     text-decoration: none;
     color: white;
 
+}
+body {
+    overflow-x: hidden;
 }
 
 button{
@@ -283,12 +289,13 @@ body .show-mobile-menu header::before {
     padding: 50px 0 100px;
     background: rgb(187, 165, 168);
 }
-.testimonials-section .slider-wrapper {
+.testimonials-section .slider-container {
     overflow: hidden;
     margin: 0 60px 50px;
     
 }
 .testimonials-section .testimonials {
+    user-select: none;
     display: flex;
     padding: 35px;
     text-align: center;
@@ -384,14 +391,15 @@ body .show-mobile-menu header::before {
     border-radius: var(--border-radius-sm);
     border: 1px solid   gray;
 }
-.contact-section .contact-form .form {
+.contact-section .contact-form  {
     max-width: 50%;
+    width: 100%;
 }
 .contact-section .contact-form .form-input:focus {
     border-color: var(--secondary-color) ;
 
 }
-.contact-section .contact-form .textarea.form-input {
+.contact-section .contact-form textarea.form-input {
     height: 100px;
     padding: 12px;
     resize: vertical;
@@ -411,6 +419,36 @@ body .show-mobile-menu header::before {
     background: transparent;
     color: var(--primary-color);
 }
+/* Footer section */
+ .footer-section {
+    padding: 25px 20px;
+    background-color: #000000;
+ }
+ .footer-section .section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .footer-section :where(.copyright-text, .social-link, .policy-link) {
+    color: white;
+    transition: 0.2s ease;
+ }
+ .footer-section .social-link-list {
+    display: flex;
+    gap: 25px;
+ }
+ .footer-section .social-link-list .social-link {
+    font-size: var(--font-lg);
+ }
+ .footer-section .social-link-list .social-link:hover, 
+ .footer-section .policy-text .policy-link:hover {
+    color: var(--secondary-color);
+ }
+ .footer-section .policy-text .separator {
+    color: white;
+    margin: 0 5px;
+ }
+
 /*Responsive media query code for max width 1024 */
 @media screen and (max-width:1024px) {
     .menu-section .menu-list {
@@ -516,10 +554,14 @@ body .show-mobile-menu header::before {
     .menu-section .menu-list .menu-item {
         width: 100%;
     }
-    .testimonials-section .slider-wrapper {
+    .testimonials-section .slider-container {
         margin: 0 0 30px;
     }
     .testimonials-section .swiper-slide-button {
         display: none;
+    }
+    .footer-section .section-content {
+        flex-direction:  column;
+        gap: 20px;
     }
 }
