@@ -17,6 +17,14 @@ This is responsive coffee website made by using HTML,CSS, and Javascript. It inc
 ![Gallery](assets/images/gallery.png)
 ![Contact](assets/images/contact.png)
 
+## Features
+-Attractive home page with hero section
+
+-Responsive design
+
+-Slider by using js
+
+-Clean and different UI
 ## Live Demo
  https://pxg7.github.io/COFFE-WEBSITE/
 
