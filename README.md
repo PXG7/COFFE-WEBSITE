@@ -1,0 +1,13 @@
+#Coffee Website
+
+#About my project
+This is responsive coffee website made by using HTML,CSS, and Javascript. It includes multiple sections like Home,About,Menu,Testimonials,Gallery and Contact.
+
+#Languages Used
+-HTML
+-CSS
+-JavaScript
+
+#Screenshots
+
+[Homepage](assets/images/home.png)
