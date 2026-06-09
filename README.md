@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ##Coffee Website
 
 ##About my project
