@@ -12,7 +12,6 @@ This is responsive coffee website made by using HTML,CSS, and Javascript. It inc
 
 ## Screenshot
 ![Homepage](assets/images/home.png)
-![About](/assets/images/about.png)
 ![Menu](assets/images/menu.png)
 ![Testimonials](assets/images/testimonials.png)
 ![Gallery](assets/images/gallery.png)
@@ -33,7 +32,7 @@ This is responsive coffee website made by using HTML,CSS, and Javascript. It inc
 ## Structure
 
 Coffee-Website
-
+```
 │
 ├── index.html
 ├── style.css
@@ -41,4 +40,5 @@ Coffee-Website
 │
 └── assets/
     └── images/
+```
 
