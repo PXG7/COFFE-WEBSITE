@@ -10,7 +10,7 @@ This is responsive coffee website made by using HTML,CSS, and Javascript. It inc
 
 ## Screenshot
 ![Homepage](assets/images/home.png)
-![About](assets/images/about(2).png)
+![About](assets/images/about.png)
 ![Menu](assets/images/menu.png)
 ![Testimonials](assets/images/testimonials.png)
 ![Gallery](assets/images/gallery.png)
