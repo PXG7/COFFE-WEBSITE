@@ -16,7 +16,6 @@ html {
 
     --border-color: #e0e0e0;
 
-    --success: #28a745;
     --error: #dc3545;
     --warning: #ffc107;
     --info: #17a2b8;
@@ -40,6 +39,11 @@ html {
     --font-semibold: 600;
     --font-medium: 500;
 }
+#menu-open-button,
+#menu-close-button {
+    display: none;
+}
+
 / styling for whole site/
 
 ul {
@@ -468,8 +472,8 @@ body .show-mobile-menu header::before {
     }
     .navbar #menu-close-button {
         position: absolute;
-        right: 30px;
-        top: 30px;
+        right: 50px;
+        top: 25px;
     }
     .navbar #menu-open-button {
         color: white;
@@ -490,6 +494,20 @@ body .show-mobile-menu header::before {
     body.show-mobile-menu .navbar .nav-menu {
         left: 0;
     }
+    #menu-open-button,
+    #menu-close-button {
+    display: block;
+    font-size: 24px;
+    color: white;
+    z-index: 1001;
+  }
+     #menu-open-button {
+    right: 20px;
+ }
+    #menu-close-button {
+    position: absolute;
+    right: 40px;
+  }
 
 .navbar .nav-menu .nav-link {
     color: var(--black-color);
@@ -554,7 +572,7 @@ body .show-mobile-menu header::before {
     .menu-section .menu-list .menu-item {
         width: 100%;
     }
-    .testimonials-section .slider-container {
+    .testimonials-section .slider-swipper {
         margin: 0 0 30px;
     }
     .testimonials-section .swiper-slide-button {
