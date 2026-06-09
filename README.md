@@ -5,7 +5,9 @@ This is responsive coffee website made by using HTML,CSS, and Javascript. It inc
 
 ## Languages Used
 -HTML
+
 -CSS
+
 -JavaScript
 
 ## Screenshot
