@@ -1,7 +1,7 @@
 ## Coffee Website
 
 ## About my project
-This is responsive coffee website made by using HTML,CSS, and Javascript. It includes multiple sections like Home,About,Menu,Testimonials,Gallery and Contact.
+This is responsive coffee website made by using HTML,CSS, and Javascript. It includes multiple sections like Home,About,Menu,Testimonials,Gallery and Contact. This website helps coustomers easily to find menu,location and contact information . I thought websites also helps to attracts new customers so I made this website.
 
 ## Languages Used
 -HTML
@@ -25,6 +25,7 @@ This is responsive coffee website made by using HTML,CSS, and Javascript. It inc
 -Slider by using js
 
 -Clean and different UI
+
 ## Live Demo
  https://pxg7.github.io/COFFE-WEBSITE/
 
